@@ -1,0 +1,13 @@
+{
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.path": "/usr/bin/clangd",
+  "clangd.arguments": [
+      "-log=verbose", 
+      "-pretty", 
+      "--background-index", 
+      "--compile-commands-dir=${workspaceFolder}/build"],
+  "cmake.generator": "Unix Makefiles",
+  "files.associations": {
+      "string": "cpp"
+  },
+}
